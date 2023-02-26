@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+  font-family: Lazer84;
+  src: url(Lazer84.ttf);
+  font-style: normal;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(250, 0%, 0%);
+}
+
+ul li {
+  float: left;
+  list-style: none;
+  margin-right: 1em;
+  font-family: 'Press Start 2P', cursive;
+}
+
+li a {
+  color: hsl(317, 100%, 34%);
+  text-decoration: none;
+  float: left;
+  font-size: 25px;
+  padding: 12px;
+}
+
+li a:hover {
+  color: hsl(317, 100%, 42%);
+}
+
+.left a:hover {
+  -webkit-transition: All .5s ease;
+  -moz-transition: All .5s ease;
+  -o-transition: All .5s ease;
+  -webkit-transform: rotate(-10deg) scale(1.2);
+  -moz-transform: rotate(-10deg) scale(1.2);
+  -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.right a:hover {
+  -webkit-transition: All .5s ease;
+  -moz-transition: All .5s ease;
+  -o-transition: All .5s ease;
+  -webkit-transform: rotate(10deg) scale(1.2);
+  -moz-transform: rotate(10deg) scale(1.2);
+  -o-transform: rotate(10deg) scale(1.2);
+}
+
+#title {
+  display: block;
+  text-align: center;
+  font-family: Lazer84, cursive;
+  color: hsl(192, 97%, 64%);
+  padding-top: 50px;
+}
