@@ -11,8 +11,8 @@
 }
 
 @font-face {
-  font-family: VCR_OSD_MONO_1.001;
-  src: url(VCR_OSD_MONO_1.001.ttf);
+  font-family: VCR_OSD;
+  src: url(VCR_OSD.ttf);
 }
 
 
@@ -88,4 +88,41 @@ li a:hover {
   margin-right: auto;
   margin-left: auto;
   padding-top: 85px;
+}
+
+#intro {
+  display: block;
+  text-align: center;
+  font-family: 'VCR_OSD', cursive;
+  color: hsl(60, 100%, 45%);
+  padding-top: 60px;
+  font-size: 40px;
+}
+
+#intro:hover {
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px hsl(60, 100%, 45%),
+      0 0 82px hsl(60, 100%, 45%),
+      0 0 92px hsl(60, 100%, 45%),
+      0 0 102px hsl(60, 100%, 45%),
+      0 0 151px hsl(60, 100%, 45%);
+}
+
+#div1 {
+  display: block;
+  position: relative;
+  background-color: hsl(317, 100%, 42%);
+  width: 250px;
+  height: 300px;
+  left: auto;
+}
+
+#main {
+  display: block;
+  text-align: center;
+  font-family: 'VCR_OSD', cursive;
+  font-size: 25px;
 }
