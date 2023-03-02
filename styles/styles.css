@@ -15,6 +15,16 @@
   src: url(VCR_OSD.ttf);
 }
 
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:visited {
+  text-decoration: none;
+  color: none;
+}
+
 
 * {
   padding: 0;
