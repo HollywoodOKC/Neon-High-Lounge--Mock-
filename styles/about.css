@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@font-face {
+  font-family: Lazer84;
+  src: url(Lazer84.ttf);
+  font-style: normal;
+}
+@font-face {
+  font-family: Neon;
+  src: url(Neon.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: VCR_OSD;
+  src: url(VCR_OSD.ttf);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: hsl(250, 0%, 0%);
+}
+
+
+ul li {
+  float: left;
+  list-style: none;
+  margin-right: 1em;
+  font-family: 'Press Start 2P', cursive;
+}
+
+li a {
+  color: hsl(317, 100%, 34%);
+  text-decoration: none;
+  float: left;
+  font-size: 25px;
+  padding: 12px;
+}
+
+li a:hover {
+  color: hsl(317, 100%, 42%);
+}
+
+.left a:hover {
+  -webkit-transition: All .5s ease;
+  -moz-transition: All .5s ease;
+  -o-transition: All .5s ease;
+  -webkit-transform: rotate(-10deg) scale(1.2);
+  -moz-transform: rotate(-10deg) scale(1.2);
+  -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.right a:hover {
+  -webkit-transition: All .5s ease;
+  -moz-transition: All .5s ease;
+  -o-transition: All .5s ease;
+  -webkit-transform: rotate(10deg) scale(1.2);
+  -moz-transform: rotate(10deg) scale(1.2);
+  -o-transform: rotate(10deg) scale(1.2);
+}
+
+#title {
+  display: block;
+  text-align: center;
+  font-family: Lazer84, cursive;
+  color: hsl(192, 100%, 50%);
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px hsl(192, 100%, 50%),
+      0 0 82px hsl(192, 100%, 50%),
+      0 0 92px hsl(192, 100%, 50%),
+      0 0 102px hsl(192, 100%, 50%),
+      0 0 151px hsl(192, 100%, 50%);
+  padding-top: 100px;
+  font-size: 50px;
+}
+
+#red-neon {
+  height: 75%;
+  width: 75%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 85px;
+}
