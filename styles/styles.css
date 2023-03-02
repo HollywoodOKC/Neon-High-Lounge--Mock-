@@ -113,17 +113,51 @@ li a:hover {
 
 #div1 {
   display: block;
-  position: relative;
+  position: absolute;
   background-color: hsl(317, 100%, 42%);
   width: 250px;
   height: 350px;
-  left: auto;
+  left: 200px;
   border-radius: 7px;
 }
 
-#main {
+#div2 {
+  display: block;
+  position: absolute;
+  background-color: hsl(317, 100%, 42%);
+  width: 250px;
+  height: 350px;
+  border-radius: 7px;
+  left: 500px;
+}
+
+#div3 {
+  display: block;
+  position: absolute;
+  background-color: hsl(317, 100%, 42%);
+  width: 250px;
+  height: 350px;
+  border-radius: 7px;
+  left: 800px;
+}
+
+#main, #about, #strains {
   display: block;
   text-align: center;
   font-family: 'VCR_OSD', cursive;
   font-size: 25px;
+}
+
+#about_button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+}
+
+#strains_button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
