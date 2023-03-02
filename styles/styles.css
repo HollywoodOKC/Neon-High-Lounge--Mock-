@@ -163,6 +163,7 @@ li a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 180px;
+  border-radius: 7px;
 }
 
 #strains_button {
@@ -170,4 +171,5 @@ li a:hover {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  border-radius: 7px;
 }
