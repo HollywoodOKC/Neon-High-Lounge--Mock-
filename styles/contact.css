@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import "compass/css3";
+
 @font-face {
   font-family: Lazer84;
   src: url(Lazer84.ttf);
   font-style: normal;
 }
+
 @font-face {
   font-family: Neon;
   src: url(Neon.ttf);
@@ -69,14 +72,14 @@ li a:hover {
   font-family: Lazer84, cursive;
   color: hsl(192, 100%, 50%);
   text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px hsl(192, 100%, 50%),
-      0 0 82px hsl(192, 100%, 50%),
-      0 0 92px hsl(192, 100%, 50%),
-      0 0 102px hsl(192, 100%, 50%),
-      0 0 151px hsl(192, 100%, 50%);
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px hsl(192, 100%, 50%),
+    0 0 82px hsl(192, 100%, 50%),
+    0 0 92px hsl(192, 100%, 50%),
+    0 0 102px hsl(192, 100%, 50%),
+    0 0 151px hsl(192, 100%, 50%);
   padding-top: 100px;
   font-size: 50px;
 }
@@ -89,3 +92,5 @@ li a:hover {
   margin-left: auto;
   padding-top: 85px;
 }
+
+/*^^ Standard on every page ^^*/
