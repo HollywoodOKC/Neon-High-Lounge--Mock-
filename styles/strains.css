@@ -90,11 +90,7 @@ li a:hover {
   justify-content: space-evenly;
 }
 
-#strain1,
-#strain2,
-#strain3,
-#strain4,
-#strain5 {
+.strain {
   display: block;
   margin-left: auto;
   margin-right: auto;
