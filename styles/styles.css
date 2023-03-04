@@ -91,13 +91,13 @@ li a:hover {
   font-size: 50px;
 }
 
-#red-neon {
+#neon-leaf {
   height: 75%;
   width: 75%;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 85px;
+  padding-top: 300px;
 }
 
 #intro {
@@ -174,10 +174,10 @@ li a:hover {
   border-radius: 7px;
 }
 
-#art1 {
+#art {
   display: block;
   border-radius: 7px;
-  padding-top: 400px;
+  padding-top: 100px;
   margin-left: auto;
   margin-right: auto;
   height: 75%;
