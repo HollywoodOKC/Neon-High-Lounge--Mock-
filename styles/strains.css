@@ -83,20 +83,18 @@ li a:hover {
   font-size: 50px;
 }
 
-#red-neon {
-  height: 75%;
-  width: 75%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-top: 85px;
-}
-
 /*Standard from here up*/
+
+.allStrains {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 #strain1,
 #strain2,
-#strain3 {
+#strain3,
+#strain4,
+#strain5 {
   display: block;
   margin-left: auto;
   margin-right: auto;
