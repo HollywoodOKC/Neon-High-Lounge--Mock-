@@ -173,3 +173,13 @@ li a:hover {
   margin-top: 10px;
   border-radius: 7px;
 }
+
+#art1 {
+  display: block;
+  border-radius: 7px;
+  padding-top: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 75%;
+  width: 75%;
+}
