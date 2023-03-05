@@ -183,3 +183,19 @@ li a:hover {
   height: 75%;
   width: 75%;
 }
+
+#timeDiv {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: hsl(317, 100%, 42%);
+  width: 250px;
+  border-radius: 7px;
+}
+
+#time {
+  display: block;
+  text-align: center;
+  font-family: 'VCR_OSD', cursive;
+  font-size: 35px;
+}

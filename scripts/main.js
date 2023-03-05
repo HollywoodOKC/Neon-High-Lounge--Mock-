@@ -1,5 +1,15 @@
+const time = document.getElementById('time');
 const buttonOne = document.getElementById('about_button');
 const buttonTwo = document.getElementById('strains_button');
+
+const theTimeFunc = () => {
+  let t = new Date();
+  let hour = t.getHours();
+  let min = t.getMinutes();
+  let sec = t.getSeconds();
+  let theTime = `${hour}:${min}:${sec}`;
+  time.innerHTML = theTime;
+}
 
 const buttonOneFunc = () => {
   buttonOne.style.backgroundColor = 'hsl(56, 100%, 50%)';
@@ -25,3 +35,4 @@ buttonOne.addEventListener('mouseover', buttonOneFunc);
 buttonOne.addEventListener('mouseout', buttonOneTurnBack);
 buttonTwo.addEventListener('mouseover', buttonTwoFunc);
 buttonTwo.addEventListener('mouseout', buttonTwoTurnBack);
+setInterval(theTimeFunc, 1000);
