@@ -210,3 +210,28 @@ li a:hover {
   display: flex;
   justify-content: space-evenly;
 }
+
+#div4 {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 79%;
+  height: auto;
+  border-radius: 7px;
+  background-color: hsl(317, 100%, 42%);
+}
+
+#venice {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 7px 7px 0 0;
+}
+
+#second {
+  display: block;
+  text-align: center;
+  font-family: 'VCR_OSD', cursive;
+  font-size: 25px;
+}
