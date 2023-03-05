@@ -82,6 +82,8 @@ li a:hover {
     0 0 151px hsl(192, 100%, 50%);
   padding-top: 100px;
   font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #red-neon {
