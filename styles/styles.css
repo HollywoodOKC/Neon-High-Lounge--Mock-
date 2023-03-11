@@ -245,6 +245,7 @@ li a:hover {
   border-radius: 7px;
   width: 75%;
   padding: 5px;
+  font-family: 'VCR_OSD', cursive;
 }
 
 #footer {
