@@ -252,3 +252,7 @@ li a:hover {
   text-align: center;
   color: black;
 }
+
+.dark-mode {
+  background-color: white;
+}

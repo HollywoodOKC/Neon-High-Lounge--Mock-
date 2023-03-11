@@ -1,6 +1,7 @@
 const time = document.getElementById('time');
 const buttonOne = document.getElementById('about_button');
 const buttonTwo = document.getElementById('strains_button');
+const checkBox = document.getElementById('checkBox');
 
 const theTimeFunc = () => {
   let t = new Date();
@@ -31,8 +32,14 @@ const buttonTwoTurnBack = () => {
   buttonTwo.style.color = 'hsl(56, 100%, 50%)';
 }
 
+const darkMode = () => {
+  let element = document.body;
+  element.classList.toggle("dark-mode");
+}
+
 buttonOne.addEventListener('mouseover', buttonOneFunc);
 buttonOne.addEventListener('mouseout', buttonOneTurnBack);
 buttonTwo.addEventListener('mouseover', buttonTwoFunc);
 buttonTwo.addEventListener('mouseout', buttonTwoTurnBack);
+checkBox.addEventListener('click', darkMode);
 setInterval(theTimeFunc, 1000);
