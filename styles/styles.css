@@ -109,7 +109,7 @@ li a:hover {
   text-align: center;
   font-family: 'VCR_OSD', cursive;
   color: hsl(60, 100%, 45%);
-  padding-top: 60px;
+  margin-top: 60px;
   font-size: 40px;
 }
 
@@ -211,7 +211,7 @@ li a:hover {
   justify-content: space-around;
 }
 
-#div4 {
+#div4, #div5 {
   display: block;
   margin-right: auto;
   margin-left: auto;
@@ -221,7 +221,7 @@ li a:hover {
   background-color: hsl(317, 100%, 42%);
 }
 
-#venice {
+#venice, #LA {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -230,7 +230,7 @@ li a:hover {
   border-radius: 7px 7px 0 0;
 }
 
-#second {
+#second, #third {
   display: block;
   text-align: center;
   font-family: 'VCR_OSD', cursive;
