@@ -236,3 +236,18 @@ li a:hover {
   font-family: 'VCR_OSD', cursive;
   font-size: 25px;
 }
+
+.row {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsl(60, 100%, 60%);
+  border-radius: 7px;
+  width: 75%;
+  padding: 5px;
+}
+
+#footer {
+  text-align: center;
+  color: black;
+}
