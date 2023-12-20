@@ -116,6 +116,7 @@ li a:hover {
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
+  overflow: scroll;
 }
 
 .about {
