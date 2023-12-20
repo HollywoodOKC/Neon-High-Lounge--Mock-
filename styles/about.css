@@ -146,3 +146,21 @@ hr {
   text-align: center;
   color: black;
 }
+
+@media screen and (max-width: 600px) {
+  #dispo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #shelves {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+  }
+}
