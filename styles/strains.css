@@ -147,3 +147,11 @@ li a:hover {
   text-align: center;
   color: black;
 }
+
+@media screen and (max-width: 600px) {
+  .allStrains {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
