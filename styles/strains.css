@@ -101,7 +101,7 @@ li a:hover {
   background-color: hsl(317, 100%, 42%);
   border-radius: 7px;
   margin: 30px;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .picture {
