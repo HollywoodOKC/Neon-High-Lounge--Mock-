@@ -164,3 +164,9 @@ li a:hover {
     margin: auto;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #intro {
+    margin-top: 60px;
+  }
+}
