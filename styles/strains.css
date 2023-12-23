@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 @font-face {
   font-family: Lazer84;
@@ -17,7 +17,6 @@
   src: url(VCR_OSD.ttf);
 }
 
-
 * {
   padding: 0;
   margin: 2px;
@@ -27,12 +26,11 @@ body {
   background: hsl(250, 0%, 0%);
 }
 
-
 ul li {
   float: left;
   list-style: none;
   margin-right: 1em;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 li a {
@@ -48,18 +46,18 @@ li a:hover {
 }
 
 .left a:hover {
-  -webkit-transition: All .5s ease;
-  -moz-transition: All .5s ease;
-  -o-transition: All .5s ease;
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
   -webkit-transform: rotate(-10deg) scale(1.2);
   -moz-transform: rotate(-10deg) scale(1.2);
   -o-transform: rotate(-10deg) scale(1.2);
 }
 
 .right a:hover {
-  -webkit-transition: All .5s ease;
-  -moz-transition: All .5s ease;
-  -o-transition: All .5s ease;
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
   -webkit-transform: rotate(10deg) scale(1.2);
   -moz-transform: rotate(10deg) scale(1.2);
   -o-transform: rotate(10deg) scale(1.2);
@@ -114,10 +112,10 @@ li a:hover {
 }
 
 .descript {
-  color: 'black';
+  color: "black";
   display: block;
   text-align: center;
-  font-family: 'VCR_OSD', cursive;
+  font-family: "VCR_OSD", cursive;
 }
 
 #intro {
@@ -126,7 +124,7 @@ li a:hover {
   margin-right: auto;
   background-color: hsl(317, 100%, 42%);
   border-radius: 7px;
-  font-family: 'VCR_OSD', cursive;
+  font-family: "VCR_OSD", cursive;
   font-size: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -140,7 +138,7 @@ li a:hover {
   border-radius: 7px;
   width: 75%;
   padding: 5px;
-  font-family: 'VCR_OSD', cursive;
+  font-family: "VCR_OSD", cursive;
 }
 
 #footer {
@@ -153,5 +151,16 @@ li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin: auto;
   }
 }

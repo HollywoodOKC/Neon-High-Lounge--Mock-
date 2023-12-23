@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 @import "compass/css3";
 
 @font-face {
@@ -18,7 +18,6 @@
   src: url(VCR_OSD.ttf);
 }
 
-
 * {
   padding: 0;
   margin: 2px;
@@ -28,12 +27,11 @@ body {
   background: hsl(250, 0%, 0%);
 }
 
-
 ul li {
   float: left;
   list-style: none;
   margin-right: 1em;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
 }
 
 li a {
@@ -49,18 +47,18 @@ li a:hover {
 }
 
 .left a:hover {
-  -webkit-transition: All .5s ease;
-  -moz-transition: All .5s ease;
-  -o-transition: All .5s ease;
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
   -webkit-transform: rotate(-10deg) scale(1.2);
   -moz-transform: rotate(-10deg) scale(1.2);
   -o-transform: rotate(-10deg) scale(1.2);
 }
 
 .right a:hover {
-  -webkit-transition: All .5s ease;
-  -moz-transition: All .5s ease;
-  -o-transition: All .5s ease;
+  -webkit-transition: All 0.5s ease;
+  -moz-transition: All 0.5s ease;
+  -o-transition: All 0.5s ease;
   -webkit-transform: rotate(10deg) scale(1.2);
   -moz-transform: rotate(10deg) scale(1.2);
   -o-transform: rotate(10deg) scale(1.2);
@@ -110,4 +108,15 @@ li a:hover {
 #footer {
   text-align: center;
   color: black;
+}
+
+@media screen and (max-width: 600px) {
+  #title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+  }
 }
