@@ -163,13 +163,14 @@ li a:hover {
   text-align: center;
   font-family: "VCR_OSD", cursive;
   font-size: 23px;
+  padding-top: 10px;
 }
 
 #about_button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
+  margin-top: 90px;
   border-radius: 7px;
 }
 
@@ -177,7 +178,7 @@ li a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 34px;
+  margin-top: 24px;
   border-radius: 7px;
 }
 
